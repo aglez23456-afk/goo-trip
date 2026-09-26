@@ -32,3 +32,40 @@ overflow:hidden;
 .org-photo{width:120px;height:120px}
 .org-card.director .org-photo{width:140px;height:140px}
 }
+/* =========================
+   INVENTARIO GO!TRIP
+========================= */
+
+.inventario {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 20px;
+    background: #071a33;
+    color: white;
+}
+
+.inventario h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.inventario p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.btn-inventario {
+    display: inline-block;
+    padding: 14px 25px;
+    background: #ff7a00;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-inventario:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
